@@ -1,97 +1,78 @@
 <!DOCTYPE html>
-
 <html lang="en" dir="ltr">
 
+
   <head>
-
     <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="icon" href ="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Sacramento|Work+Sans&display=swap" rel="stylesheet">
 
-    <title> GRAYSON MICAL</title>
+    <title>GRAYSON MICAL</title>
   </head>
 
+
   <body>
-    <table cellspacing="20">
-      <tr>
-        <td><img src="images/VID_20191231_124807-ANIMATION.gif" alt="profile pic"></td>
-        <td>
-          <h1>GRAYSON MICAL</h1>
-          <p><em><strong>Grayson's Resume</strong></em></p>
-          <p>WEB DEVELOPER. OTHER STUFF.</p>
-        </td>
-      </tr>
-    </table>
+
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+      <h1>I'm Grayson</h1>
+
+      <!--SPAN is in line element-->
+      <!--You can change inline<>block display: block;-->
+      <!--inline-block is also a thing-->
+      <h2>a <span class="pro">pro</span>grammer</h2>
+
+      <!--IMAGES- position: relative leaves ghost img-->
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+      <img src="images/mountain.png" alt="mountain-img">
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
+        <img class="profile-img" src="images/doggo.jpg" alt="doggo-profile-img">
+        <h2>Hello.</h2>
+        <p>I am a Computer Scientest nearing graduation at SFSU.</p>
+        <p>Here for your UI/UX & Web design needs</p>
+      </div>
+      <hr>
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row-1">
+          <img class="skills-img-1" src="images/tenor.gif" alt="web-design-img">
+          <h3>Web Design</h3>
+          <p>You know you want a website just like this for yourself! I can make it easy and custom, no more watermarks on your site!</p>
+        </div>
 
 
-    <hr>
-    <h3>Education</h3>
-    <ul>
-      <li>SSU</li>
-      <li><a href="https://www.sfsu.edu">SFSU</a></li>
-      <li>life</li>
-    </ul>
-    <hr>
-    <table>
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>DATE OF PROJECT 1</td>
-          <td>PROJECT 1 DESCRIPTION </td>
-        </tr>
-        <tr>
-          <td>DATE OF PROJECT 2</td>
-          <td>PROJECT 2 DESCRIPTION</td>
-        </tr>
+        <br>
 
-      </tbody>
-      <tfoot>
-        <tr>
-          <th>Dates</th>
-          <th>Work</th>
-        </tr>
-      </tfoot>
-    </table>
-    <hr>
+        <div class="skill-row-2">
+          <img class="skills-img-2" src="images/bc.jpg" alt="backcountry-img">
+          <br>
+          <h3>Other Fun Stuff!</h3>
+          <p>A well rounded individual, I enjoy many fine things in life. Currently at the top of my list is Back Country Skiing!</p>
+        </div>
 
-    <h3>Skills</h3>
+      </div>
 
-    <table>
-      <tr>
-        <td>
-          <table>
-              <thead>
-              </thead>
-              <tfoot>
-              </tfoot>
+      <hr>
 
-              <tr>
-                <td>Web Development</td>
-                <td>💎💎💎💎💎</td>
-              </tr>
-              <tr>
-                <td>Game Design</td>
-                <td>💎💎💎💎</td>
-              </tr>
-              <tr>
-                <td>JavaScript</td>
-                <td>💎💎💎</td>
-              </tr>
-
-            </table>
-          </td>
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you have something to share with the world, I can help!</h3>
+        <p>Open to tips on new back country spots as well</p>
+        <a class="button" href="mailto:flyzenberggames@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
 
 
-      </tr>
-    </table>
-    <hr>
+    <div class="bottom-container">
+      <a class="footer-link" href="https://www.linkedin.com/in/grayson-mical-82064190/" target="_blank">LinkedIn</a>
+      <a class="footer-link" href="graysonmical.com">Website</a>
+      <p class="copyright">© 2020 Grayson Mical</p>
+    </div>
 
-    <h3><a href="hobbies.html">Hobbies</a></h3>
-    <h3><a href="contact.html">Contact Me</a></h3>
 
   </body>
-
 </html>
