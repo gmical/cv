@@ -93,6 +93,8 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: calc(1.475rem + 2.7vw);
+  /* h2 color option */
+  /* color: #FF6F5E; */
 }
 @media (min-width: 1200px) {
   h2, .h2 {
@@ -539,6 +541,7 @@ progress {
 }
 
 .list-inline-item {
+  color: #F0134D;
   display: inline-block;
 }
 .list-inline-item:not(:last-child) {
@@ -608,6 +611,8 @@ progress {
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
   margin-left: auto;
+  /* bg color option */
+  background-color: #F5F0E3;
 }
 
 @media (min-width: 576px) {
@@ -10954,7 +10959,7 @@ p.lead {
   justify-content: center;
   height: 3.5rem;
   width: 3.5rem;
-  background-color: #495057;
+  background-color: #F0134D;
   color: #fff;
   border-radius: 100%;
   font-size: 1.5rem;
